@@ -13,7 +13,7 @@
 	$sql = "SELECT * FROM tbl_admin_psq WHERE user = '$U' and pass = '$P'";
 	$result = mysqli_query($conn,$sql);
 	$objResult = mysqli_fetch_array($result);
-	echo $U;
+	echo $objResult["user"];
 	/*if(!$objResult)
 	{
 		echo "ชื่อผู้ใช้ หรือรหัสผ่านไม่ถูกต้อง หรือไม่มีในระบบ " ;
