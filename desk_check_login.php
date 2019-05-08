@@ -10,7 +10,7 @@
 	require('connect-db.php');
 	$U = $_POST['textuser'];
 	$P = $_POST['textpass'];
-	$sql = "SELECT * FROM tbl_admin_psq WHERE user = '".$U."' and pass = '".$P."'";
+	$sql = "SELECT * FROM tbl_admin_psq WHERE user = '$U' and pass = '$P'";
 	$result = mysqli_query($conn,$sql);
 	$objResult = mysqli_fetch_array($result);
 	if(!$objResult)
