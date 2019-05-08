@@ -39,7 +39,7 @@ margin-bottom: 10px;
             echo '<script type="text/javascript">';
             echo 'window.location.href="desk_login.php";';
             echo '</script>';
-            break;
+            //break;
         }
         $keyword = $_GET['keyword'];
         if(isset($keyword))
