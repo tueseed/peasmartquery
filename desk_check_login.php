@@ -7,13 +7,14 @@
 </head> 
 <body>
 <?php
-	/*require('connect-db.php');
+	require('connect-db.php');
 	$U = $_POST['textuser'];
 	$P = $_POST['textpass'];
 	$sql = "SELECT * FROM tbl_admin_psq WHERE user = '$U' and pass = '$P'";
 	$result = mysqli_query($conn,$sql);
 	$objResult = mysqli_fetch_array($result);
-	if(!$objResult)
+	echo $U;
+	/*if(!$objResult)
 	{
 		echo "ชื่อผู้ใช้ หรือรหัสผ่านไม่ถูกต้อง หรือไม่มีในระบบ " ;
 		echo '<br>กลับสู่หน้า  <a href = "http://nutt-i.com/psqv2/desk_login.php"> เข้าสู่ระบบ </a>';
@@ -28,7 +29,7 @@
       	echo '</script>';
 	}
 	/*ob_end_flush();*/
-	echo "sadadasdasd";
+	
 	?>
 </body>
 </html>
