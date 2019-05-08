@@ -17,16 +17,16 @@
 	if(!$objResult)
 	{
 		echo "ชื่อผู้ใช้ หรือรหัสผ่านไม่ถูกต้อง หรือไม่มีในระบบ " ;
-		echo '<br>กลับสู่หน้า  <a href = "http://nutt-i.com/psqv2/desk_login.php"> เข้าสู่ระบบ </a>';
-		break;
+		//echo '<br>กลับสู่หน้า  <a href = "http://nutt-i.com/psqv2/desk_login.php"> เข้าสู่ระบบ </a>';
+		//break;
     }
 	else
 	{
 		session_start();
 		$_SESSION["USER"] = $objResult["user"];
-		echo '<script type="text/javascript">';
-    echo 'window.location.href="index.php";';
-  	echo '</script>';
+		//echo '<script type="text/javascript">';
+    //echo 'window.location.href="index.php";';
+  	//echo '</script>';
 	}
 	/*ob_end_flush();*/
 	
