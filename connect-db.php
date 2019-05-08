@@ -1,8 +1,8 @@
  <?php
- 	$server = "localhost";
-    $username = "nutticom_data";
-    $password = "12345";
-    $db = "nutticom_data";
+ 	$server = "us-cdbr-iron-east-02.cleardb.net";
+    $username = "b4a190056925a9";
+    $password = "2c6960b2";
+    $db = "heroku_ea9f230e2c68254";
     $conn = new mysqli($server, $username, $password, $db);
     // Check connection
     if ($conn->connect_error) {
