@@ -24,9 +24,9 @@
 	{
 		session_start();
 		$_SESSION["USER"] = $objResult["user"];
-		//echo '<script type="text/javascript">';
-    //echo 'window.location.href="index.php";';
-  	//echo '</script>';
+		echo '<script type="text/javascript">';
+    echo 'window.location.href="index.php";';
+  	echo '</script>';
 	}
 	/*ob_end_flush();*/
 	
