@@ -7,7 +7,7 @@
 </head> 
 <body>
 <?php
-	require('connect-db.php');
+	/*require('connect-db.php');
 	$U = $_POST['textuser'];
 	$P = $_POST['textpass'];
 	$sql = "SELECT * FROM tbl_admin_psq WHERE user = '$U' and pass = '$P'";
@@ -28,6 +28,7 @@
       	echo '</script>';
 	}
 	/*ob_end_flush();*/
+	echo "sadadasdasd";
 	?>
 </body>
 </html>
