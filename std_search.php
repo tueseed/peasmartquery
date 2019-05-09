@@ -57,7 +57,7 @@ margin-bottom: 10px;
     <a href="index.php" class="w3-bar-item w3-button">เพิ่มข้อมูลมาตรฐาน</a>
     <a href="std_search.php" class="w3-bar-item w3-button">ค้นหามาตรฐาน</a>
     <a href="admin_group_regis.php" class="w3-bar-item w3-button">ลงทะเบียนผู้ดูแลกลุ่ม</a>
-    <a href="http://nutt-i.com/psqv2/desk_logout.php" class="w3-bar-item w3-button">ออกจากระบบ</a>
+    <a href="https://peasmartquery.herokuapp.com/desk_logout.php" class="w3-bar-item w3-button">ออกจากระบบ</a>
 </div>
 <div class="w3-container w3-lime">
     <div class="w3-row">
