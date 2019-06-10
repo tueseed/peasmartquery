@@ -9,7 +9,7 @@
     <script src="liff-starter.js"></script>
 	<div class="container">
 		<form action = "check_uid.php" id = "formcheck" name = "formcheck" method = "post">
-		<input type="hidden" name="useridfield"" id="useridfield" name="useridfield">
+		<input type="hidden" name="useridfield" id="useridfield" name="useridfield">
 		<!--<p type ="id="useridfield" name="useridfield"" id="useridfield" name="useridfield"></p>-->
 		</form>
 	</div>
