@@ -12,14 +12,14 @@
 	if($nums == 0)
 	{
 		echo '<script type="text/javascript">';
-		echo 'window.location.href="https://nutt-i.com/psqv2/regist_liff_search.php?uid='.$uid.'";';
+		echo 'window.location.href="https://peasmartquery.herokuapp.com/regist_liff_search.php?uid='.$uid.'";';
 		echo '</script>';
 		//break;
 	}
 	else if ($nums <> 0)
 	{
 		echo '<script type="text/javascript">';
-		echo 'window.location.href="https://nutt-i.com/psqv2/psq_liff_search.php";';
+		echo 'window.location.href="https://peasmartquery.herokuapp.com/psq_liff_search.php";';
 		echo '</script>';
 		//break;
 	}
