@@ -47,7 +47,7 @@
 		</div>
 		<div class="container-fluid">
 			<div class="col-xs-10">
-				<form action="https://nutt-i.com/psqv2/psq_liff_search.php" method="get">
+				<form action="https://peasmartquery.herokuapp.com/psq_liff_search.php" method="get">
 					<div class="row">
 						<label for="keyword">คำค้นหา :</label>
 						<input type="text" class="form-control" name="keyword" placeholder="เช่น เสา สาย ยึดโยง ฯลฯ">
