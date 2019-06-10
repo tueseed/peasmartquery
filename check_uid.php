@@ -14,14 +14,14 @@
 		echo '<script type="text/javascript">';
 		echo 'window.location.href="https://nutt-i.com/psqv2/regist_liff_search.php?uid='.$uid.'";';
 		echo '</script>';
-		break;
+		//break;
 	}
 	else if ($nums <> 0)
 	{
 		echo '<script type="text/javascript">';
 		echo 'window.location.href="https://nutt-i.com/psqv2/psq_liff_search.php";';
 		echo '</script>';
-		break;
+		//break;
 	}
 ?>
 </body>
